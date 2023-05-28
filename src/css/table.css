@@ -1,0 +1,22 @@
+.table {
+  /*
+   * Table sizes: 8x8
+   */
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  grid-template-rows: repeat(8, minmax(0, 1fr));
+  border: solid 4px black;
+}
+.table > .table-case {
+  width: 80px;
+  height: 80px;
+  background: #e49e77;
+  border: solid 1px black;
+}
+.table > .table-case:hover {
+  opacity: 0.8;
+}
+.table > .table-case.dark {
+  background: #6b4526;
+}
+/*# sourceMappingURL=table.css.map */
